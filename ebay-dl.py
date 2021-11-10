@@ -157,7 +157,7 @@ if __name__=='__main__':
         f.write(json.dumps(items))
     
     if args.csv:
-        labels = ['name', 'free_returns', 'items_sold', 'status', 'shipping', 'price_sold']
+        labels = ['name', 'free_returns', 'items_sold', 'status=', 'shipping', 'price_sold']
         print("csv")
         filename = args.search_term+'.csv'
         with open(filename, 'w') as f:
