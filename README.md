@@ -21,7 +21,7 @@ $python3 ebay-dl.py racket
 To download ```tottenham+hotspur.json```:
 
 ```
-$python3 ebay-dl.py 'tottenham+hotspur' 
+$python3 ebay-dl.py tottenham+hotspur 
 ```
 
 [Project Instructions](https://github.com/mikeizbicki/cmc-csci040/tree/2021fall/hw_03)
